@@ -1,0 +1,137 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h4{ 
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+}
+
+
+/******** CLASSES **********/
+
+.full-container {
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: top 0 left 0, right 0 bottom 0;
+    background-repeat: no-repeat;
+}
+
+.main {
+    position: relative;
+    top: 100px;
+    left: 10%;
+    width: 35%;
+}
+
+.stars-block {
+    position: relative;
+    left: 54%;
+    bottom: 100px;
+    width: 40%;
+}
+   
+.star-review {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    font-size: .75rem;
+    font-weight: 700;
+    margin: 15px 0;
+    padding: 6px 25px;
+    width: 350px;
+}
+
+.star-rev-2 {
+    position: relative;
+    left: 10%;
+}
+
+.star-rev-3 {
+    position: relative;
+    left: 20%;
+}
+
+.review {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px 40px;
+    width: 20%;
+}
+
+.review-container {
+    left: 10%;
+    margin-bottom: 30px; 
+    position: relative;
+}
+
+.cust-rev-1 {
+    position: relative;
+    bottom: 40px;
+    margin-left: 0;
+}
+
+.cust-rev-2 {
+    position: relative;
+    bottom: 20px;
+}
+
+.name {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.buyer {
+    color: hsl(333, 80%, 67%);
+    margin-top: 8px;
+}
+
+.review-text {
+    color:hsl(300, 24%, 96%);
+    line-height: 2;
+    font-size: .8125rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/******** IMAGES **********/
+
+.star {
+    float: left;
+    padding-top: 9px;
+    padding-right: 7px;
+    width: 15px;
+}
+
+.star-last {
+    float: left;
+    padding-top: 9px;
+    padding-right: 25px;
+    width: 15px;
+}
+
+.cust-img {
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+    width: 40px;
+}
